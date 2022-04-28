@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Product Details Portal</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>InsertProduct</display-name>
+    <servlet-name>InsertProduct</servlet-name>
+    <servlet-class>com.practice.InsertProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertProduct</servlet-name>
+    <url-pattern>/InsertProduct</url-pattern>
+  </servlet-mapping>
+</web-app>

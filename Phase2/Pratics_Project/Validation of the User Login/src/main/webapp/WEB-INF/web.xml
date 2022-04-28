@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <display-name>Validation of the User Login</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Dashboard</display-name>
+    <servlet-name>Dashboard</servlet-name>
+    <servlet-class>com.practice.Dashboard</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dashboard</servlet-name>
+    <url-pattern>/Dashboard</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Login</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.practice.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Logout</display-name>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.practice.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+</web-app>
