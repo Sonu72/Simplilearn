@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T14:44:47 IST" name="Default suite" finished-at="2022-03-09T14:45:59 IST" duration-ms="72136">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T14:44:47 IST" name="Default test" finished-at="2022-03-09T14:45:59 IST" duration-ms="72136">
+      <class name="com.Testng.phase5.Registration_Form_Automation.RegistrationForm">
+        <test-method signature="invokeBrowser()[pri:0, instance:com.Testng.phase5.Registration_Form_Automation.RegistrationForm@4944252c]" started-at="2022-03-09T14:44:47 IST" name="invokeBrowser" finished-at="2022-03-09T14:45:59 IST" duration-ms="72044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- com.Testng.phase5.Registration_Form_Automation.RegistrationForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
